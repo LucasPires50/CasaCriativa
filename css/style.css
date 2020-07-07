@@ -33,3 +33,7 @@ p{
     color: var(--text-color2);
     text-decoration: none;
 }
+
+.hide{
+    display: none;
+}
