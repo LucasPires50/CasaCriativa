@@ -1,27 +1,35 @@
+:root {
+    --button-color: #ff5e84;
+    --text-color: #FFFFFF;
+    --text-color2: #25282b;
+}
+
 body{
     background: #e5e5e5;
-    color: #25282b;
+    color: var(--text-color2);
 
     text-align: center;
 }
 
 button {
+    color: var(--button-color);
+
     border: none;
-     
+
+    font-weight: bold;
+    background: none; 
 }
 
 .fat{
-    background: #ff5e84;
+    color: var(--text-color);
+    background: var(--button-color);
 }
 
 p{
     text-align: right;
 }
 
-.fat {
-    color: red;
-}
-
-#footer{
-    text-align: left;
+#footer a {
+    color: var(--text-color2);
+    text-decoration: none;
 }
