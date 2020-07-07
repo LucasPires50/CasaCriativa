@@ -1,6 +1,27 @@
 body{
-    background: red;
-    color: white;
+    background: #e5e5e5;
+    color: #25282b;
 
     text-align: center;
+}
+
+button {
+    border: none;
+     
+}
+
+.fat{
+    background: #ff5e84;
+}
+
+p{
+    text-align: right;
+}
+
+.fat {
+    color: red;
+}
+
+#footer{
+    text-align: left;
 }
